@@ -1,0 +1,16 @@
+{% extends "../base.html" %}
+
+{% block content %}
+
+    <div class="well">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2><b>{{blog}}</b></h2>
+                <h2>{{blog.body}} </h2>
+                <h3 class="pull-right">Created at: {{blog.created_at}}</h3>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
